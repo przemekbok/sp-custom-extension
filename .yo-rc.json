@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.18.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "sp-custom-css-extension",
+    "libraryId": "088a70ac-eb48-4101-953c-b75d6aa7a1c2",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "sp-custom-css-extension",
+    "solutionShortDescription": "sp-custom-css-extension description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}
