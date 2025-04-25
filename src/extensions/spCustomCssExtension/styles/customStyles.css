@@ -1,0 +1,25 @@
+/* Custom styles for SharePoint pages */
+
+/* Example styles - modify as needed for your environment */
+
+/* Change the header color */
+.ms-CommandBar {
+  background-color: #f0f0f0;
+}
+
+/* Adjust navigation appearance */
+.ms-NavBar-items {
+  background-color: #f5f5f5;
+}
+
+/* Modify content zone padding */
+.ControlZone {
+  padding: 15px;
+}
+
+/* Example of targeting specific elements */
+.ms-Grid-row {
+  margin-bottom: 10px;
+}
+
+/* Add more custom styles as needed */
