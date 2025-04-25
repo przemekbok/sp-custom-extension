@@ -13,5 +13,22 @@
   // If true, the component can only be installed on sites where Custom Script is allowed.
   // Components that allow authors to embed arbitrary script code should set this to true.
   // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
-  "requiresCustomScript": false
+  "requiresCustomScript": false,
+  
+  "preconfiguredEntries": [{
+    "groupId": "1790dde6-03d4-46d6-9f5b-5a7cfd1174de",
+    "group": {
+      "default": "Custom CSS Group"
+    },
+    "title": { "default": "SharePoint Custom CSS" },
+    "description": { "default": "Applies custom CSS to specific SharePoint pages" },
+    "iconImageUrl": "",
+    "properties": {
+      "useInternalCss": true,
+      "cssUrl": "",
+      "includeUrls": ["/SitePages/"],
+      "excludeUrls": ["/SitePages/Home.aspx"],
+      "enableDebug": false
+    }
+  }]
 }
