@@ -4,6 +4,6 @@
         Title="SpCustomCssExtension"
         Location="ClientSideExtension.ApplicationCustomizer"
         ClientSideComponentId="1790dde6-03d4-46d6-9f5b-5a7cfd1174de"
-        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+        ClientSideComponentProperties="{&quot;useInternalCss&quot;:true,&quot;cssUrl&quot;:&quot;&quot;,&quot;includeUrls&quot;:[&quot;/SitePages/&quot;],&quot;excludeUrls&quot;:[&quot;/SitePages/Home.aspx&quot;],&quot;enableDebug&quot;:false}">
     </CustomAction>
 </Elements>
